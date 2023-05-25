@@ -8,7 +8,7 @@ After creating a virtual environment, please install all dependencies:
     $  pip install -r requirements.txt
 
 ## Data Preparation
-Prepare datasets, namely CIFAR-100, WebFG496 (including [Web-CUB](https://wsnfg-sh.oss-cn-shanghai.aliyuncs.com/web-bird.tar.gz), [Web-Car](https://wsnfg-sh.oss-cn-shanghai.aliyuncs.com/web-car.tar.gz) and [Web-Aircraft](https://wsnfg-sh.oss-cn-shanghai.aliyuncs.com/web-aircraft.tar.gz)) and [WebVision](https://data.vision.ee.ethz.ch/cvl/webvision/download.html). 
+Prepare datasets, namely [CIFAR-100](https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz), WebFG496 (including [Web-CUB](https://wsnfg-sh.oss-cn-shanghai.aliyuncs.com/web-bird.tar.gz), [Web-Car](https://wsnfg-sh.oss-cn-shanghai.aliyuncs.com/web-car.tar.gz) and [Web-Aircraft](https://wsnfg-sh.oss-cn-shanghai.aliyuncs.com/web-aircraft.tar.gz)) and [WebVision](https://data.vision.ee.ethz.ch/cvl/webvision/download.html). 
   ```
   ---dataroot
      ├── cifar100
