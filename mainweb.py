@@ -287,7 +287,7 @@ def parse_args():
     parser.add_argument('--epochs', type=int, default=60)
     parser.add_argument('--loss', type=str, default='ce') 
     # parser.add_argument('--aug', type=str, default='w')   #  default weak  
-    parser.add_argument('--data_root', type=str, default='~/data') 
+    parser.add_argument('--data_root', type=str, default='~/dataroot') 
     
     parser.add_argument('--log', type=str, default='')
     
