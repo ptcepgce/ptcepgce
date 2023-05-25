@@ -258,7 +258,7 @@ def parse_args():
     parser.add_argument('--method', type=str, default='standard', help='standard, coteaching, jocor, ce, ptce, ...')
     parser.add_argument('--loss', type=str, default='ce')  # ptce, ...
     
-    parser.add_argument('--data_root', type=str, default='~/data')    
+    parser.add_argument('--data_root', type=str, default='~/dataroot')    
     
     parser.add_argument('--project', type=str, default='')
     parser.add_argument('--log', type=str, default='')
